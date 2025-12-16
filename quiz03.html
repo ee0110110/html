@@ -9,20 +9,22 @@
    <form action="quiz02.html">
     <table border="0" width="600" height="90%">
         <tr>
-            <td width="250px">다음 <span style="background-color:antiquewhite"> <b>내용에 맞게 입력</b> </span style> 하시오. <br> 전공 분야를 입력하세요. <br>
+            <td colspan="2">다음 <span style="background-color:antiquewhite"> <b>내용에 맞게 입력</b> </span style> 하시오. <br> 전공 분야를 입력하세요. <br>
             <select size="1">
                 <option value="p1">소프트웨어</option>
                 <option value="p2">전자</option>
                 <option value="p3">통신</option>
             </select>
             </td>
-            <td>
+            <td rowspan="4">
                 <a href="quiz02.html" title="quiz02 이동" target="_blank">
                 <img src="tree.jpg" width="270px" height="150px" alt="">
-                </a></td>
+                </a>
+            </td>
         </tr>
         <tr>
-            <td><label for="name">이름</label></td> <td><input id="name"></td>
+            <td><label for="name">이름</label></td> 
+            <td><input id="name"></td> 
         </tr>
         <tr>
             <td>아이디</td> <td><input type="text"></td>
@@ -55,7 +57,7 @@
             <td colspan="3">
             <fieldset style="width: 550px">
                 <legend>하고 싶은 말</legend>
-                <textarea cols="70" rows="5" name="test"></textarea>
+                <textarea style="width: 500px; height: 80px; overflow-y: scroll;"></textarea>
             </fieldset>                 
             </td>
         </tr>
