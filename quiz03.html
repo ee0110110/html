@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="quiz02.html">
+    <table border="0" width="600" height="90%">
+        <tr>
+            <td width="250px">다음 <span style="background-color:antiquewhite"> <b>내용에 맞게 입력</b> </span style> 하시오. <br> 전공 분야를 입력하세요. <br>
+            <select size="1">
+                <option value="p1">소프트웨어</option>
+                <option value="p2">전자</option>
+                <option value="p3">통신</option>
+            </select>
+            </td>
+            <td>
+                <a href="quiz02.html" title="quiz02 이동" target="_blank">
+                <img src="tree.jpg" width="270px" height="150px" alt="">
+                </a></td>
+        </tr>
+        <tr>
+            <td><label for="name">이름</label></td> <td><input id="name"></td>
+        </tr>
+        <tr>
+            <td>아이디</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>비밀번호</td> <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+            <fieldset style="width: 550px">
+                <legend>성별 조사</legend>
+                <label for="m">여성</label>
+                <input type="radio" id="m" name="gender">
+                남성<input type="radio" name="gender">
+            </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+            <fieldset style="width: 550px">
+                <legend>취미 조사</legend>
+                책읽기<input type="checkbox">
+                공부하기<input type="checkbox">
+                책 읽으며 공부하기<input type="checkbox">
+                컴퓨터<input type="checkbox">
+            </fieldset>            
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+            <fieldset style="width: 550px">
+                <legend>하고 싶은 말</legend>
+                <textarea cols="70" rows="5" name="test"></textarea>
+            </fieldset>                 
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="완료">
+            <input type="reset" value="다시 작성">
+                </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
